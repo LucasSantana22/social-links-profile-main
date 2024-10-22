@@ -1,0 +1,69 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  background-color: hsl(0, 0%, 12%);
+  width: 400px;
+  height: 600px;
+  margin: 80px 550px;
+  border-radius: 10px;
+}
+
+img {
+  margin-left: 145px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  width: 110px;
+  height: auto;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.nome,
+.local,
+.profissao,
+.github,
+.frontend,
+.linkedin,
+.twitter,
+.instagram {
+  text-align: center;
+}
+
+.local {
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.nome {
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.profissao {
+  color: white;
+}
+
+.github,
+.frontend,
+.linkedin,
+.twitter,
+.instagram {
+  color: white;
+  background-color: hsl(0, 0%, 20%);
+  margin: 20px 50px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.attribution {
+  color: white;
+  margin-top: 50px;
+}

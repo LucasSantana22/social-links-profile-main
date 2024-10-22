@@ -61,6 +61,17 @@ img {
   padding: 10px;
   border-radius: 10px;
   font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Animação suave ao passar o mouse */
+}
+
+/* Efeito ao passar o cursor sobre os botões */
+.github:hover,
+.frontend:hover,
+.linkedin:hover,
+.twitter:hover,
+.instagram:hover {
+  background-color: hsl(75, 94%, 57%); /* Muda a cor de fundo */
 }
 
 .attribution {
